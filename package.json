@@ -1,0 +1,30 @@
+{
+  "name": "baintestapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akki10/testApi.git"
+  },
+  "author": "Akul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akki10/testApi/issues"
+  },
+  "homepage": "https://github.com/akki10/testApi#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.5"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-fileupload": "^0.3.0",
+    "fast-csv": "^2.4.1",
+    "json2csv": "^3.11.5",
+    "mongoose": "^4.13.6"
+  }
+}
