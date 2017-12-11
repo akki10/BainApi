@@ -34,7 +34,7 @@ app.use(function (req, res, next) {
 });
 
 var upload = require('./app/upload.js');
-app.post('/', upload.post);
+app.post('/upload', upload.post);
 
 // app.use(function(req, res) {
 //     res.status(404).send({"url":req.originalUrl,"msg":"Path not found"})//("<h1>(404) Path "+req.originalUrl+" not found</h1>")
