@@ -1,12 +1,12 @@
 var express = require('express'),
     app = express(),
-    port = process.env.PORT || 8080,
+    port = process.env.PORT || 80,
     mongoose = require('mongoose'),
     Provider = require('./app/models/providersModel'),
     bodyParser = require('body-parser');
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/bain');
+mongoose.connect('mongodb://admin:admin@ds137206.mlab.com:37206/heroku_fnkgx02h');
 
 
 var fileUpload = require('express-fileupload');
